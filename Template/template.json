@@ -778,6 +778,10 @@
     "note": "Deploys a Wordpress instance connected to a MySQL database.",
     "categories": ["CMS"],
     "platform": "linux",
+    "ports": [
+      "8080:80/tcp",
+      "4443:443/tcp"
+    ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
@@ -799,6 +803,10 @@
     "hostname": "wordpress_host",
     "categories": ["CMS"],
     "platform": "linux",
+    "ports": [
+      "8080:80/tcp",
+      "4443:443/tcp"
+    ],
     "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
     "repository": {
       "url": "https://github.com/portainer/templates",
